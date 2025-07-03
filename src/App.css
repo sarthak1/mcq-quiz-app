@@ -157,7 +157,154 @@ h2 {
 }
 
 .retry-btn:hover {
-  background-color: #2980b9;
+  background-color: #0056b3;
+}
+
+.answer-summary {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 20px 0;
+  max-height: 600px;
+  overflow-y: auto;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 0.95em;
+}
+
+.answer-summary h3 {
+  color: #28a745;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.answer-item {
+  background: white;
+  margin-bottom: 20px;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  border-left: 5px solid #28a745;
+}
+
+.answer-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.answer-item.correct {
+  border-left-color: #28a745;
+  background-color: #f8fff8;
+}
+
+.answer-item.incorrect {
+  border-left-color: #dc3545;
+  background-color: #fff8f8;
+}
+
+.question-text {
+  font-size: 1.1em;
+  color: #2c3e50;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.options-container {
+  margin: 12px 0;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.options-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0 0 0;
+}
+
+.option {
+  padding: 8px 12px;
+  margin: 5px 0;
+  border-radius: 6px;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  transition: all 0.2s;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+.correct-option {
+  background-color: #d4edda !important;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+.user-selected {
+  border: 2px solid #007bff;
+  background-color: #e7f1ff !important;
+}
+
+.answer-details {
+  margin-top: 15px;
+  padding-top: 12px;
+  border-top: 1px dashed #ddd;
+}
+
+.correct-text {
+  color: #28a745;
+  font-weight: 500;
+}
+
+.incorrect-text {
+  color: #dc3545;
+  font-weight: 500;
+}
+
+.status {
+  font-weight: 600;
+  margin-top: 8px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.status.correct-text {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.incorrect-text {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.answer-item strong {
+  color: #495057;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .answer-summary {
+    padding: 15px;
+    margin: 15px -10px;
+    border-radius: 0;
+  }
+  
+  .answer-item {
+    padding: 12px;
+  }
+  
+  .options-container {
+    padding: 8px;
+  }
+  
+  .option {
+    padding: 6px 10px;
+    font-size: 0.9em;
+  }
 }
 
 @media (max-width: 600px) {

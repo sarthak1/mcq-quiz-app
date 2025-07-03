@@ -5,185 +5,219 @@ import './App.css';
 const mcqData = [
   {
     id: 1,
-    question: "कौन सा ग्रह 'लाल ग्रह' के नाम से जाना जाता है?",
-    options: ["शुक्र", "मंगल", "बृहस्पति", "शनि"],
-    correctAnswer: "मंगल"
+    question: "fa_ily",
+    options: ["n", "m", "l", "r"],
+    correctAnswer: "m"
   },
   {
     id: 2,
-    question: "कविता के अनुसार फूल हमें क्या सिखाते हैं?",
-    options: ["नाचना", "हँसना", "खिलना", "रंगीन होना"],
-    correctAnswer: "हँसना"
+    question: "fr_end",
+    options: ["a", "i", "o", "u"],
+    correctAnswer: "i"
   },
   {
     id: 3,
-    question: "कविता में सूरज हमें क्या सिखाता है?",
-    options: ["तेज जलना", "प्रतिदिन उगना", "जगना और जगाना", "रात में चमकना"],
-    correctAnswer: "जगना और जगाना"
+    question: "ne_ghbour",
+    options: ["i", "a", "e", "o"],
+    correctAnswer: "i"
   },
   {
     id: 4,
-    question: "विनम्रता हमें किससे सीखनी चाहिए?",
-    options: ["सूरज", "पेड़ की झुकी डालियाँ", "चाँद", "नदी"],
-    correctAnswer: "पेड़ की झुकी डालियाँ"
+    question: "rela_ion",
+    options: ["t", "s", "c", "d"],
+    correctAnswer: "t"
   },
   {
     id: 5,
-    question: "लता और पेड़ हमें क्या सिखाते हैं?",
-    options: ["फल देना", "सबको गले लगाना", "प्राणवायु देना", "ऊँचा होना"],
-    correctAnswer: "सबको गले लगाना"
+    question: "moth_r",
+    options: ["e", "o", "u", "a"],
+    correctAnswer: "e"
   },
   {
     id: 6,
-    question: "दीपक कविता में किसका प्रतीक है?",
-    options: ["प्रकाश", "ऊर्जा", "सकारात्मकता", "अंधकार दूर करना"],
-    correctAnswer: "अंधकार दूर करना"
+    question: "f_ther",
+    options: ["a", "e", "i", "o"],
+    correctAnswer: "a"
   },
   {
     id: 7,
-    question: "बहती जलधारा से हमें क्या सीख मिलती है?",
-    options: ["तैरना", "पौधे उगाना", "आगे बढ़ना", "स्थिर रहना"],
-    correctAnswer: "आगे बढ़ना"
+    question: "gra_dfather",
+    options: ["n", "m", "p", "t"],
+    correctAnswer: "n"
   },
   {
     id: 8,
-    question: "पृथ्वी हमें क्या सिखाती है?",
-    options: ["दयालुता", "सेवा", "खुशी", "अनुशासन"],
-    correctAnswer: "सेवा"
+    question: "gr_ndmother",
+    options: ["a", "u", "e", "o"],
+    correctAnswer: "a"
   },
   {
     id: 9,
-    question: "दूध और पानी हमें क्या सिखाते हैं?",
-    options: ["रंग", "शुद्धता", "मिलन और सरलता", "बहाव"],
-    correctAnswer: "मिलन और सरलता"
+    question: "unc_e",
+    options: ["l", "k", "m", "n"],
+    correctAnswer: "l"
   },
   {
     id: 10,
-    question: "हवा से हमें क्या सीख मिलती है?",
-    options: ["उड़ना", "दौड़ना", "कोमल भाव", "तेज़ी"],
-    correctAnswer: "कोमल भाव"
+    question: "a_nt",
+    options: ["e", "i", "a", "u"],
+    correctAnswer: "u"
   },
   {
     id: 11,
-    question: "‘जीवन में सदैव आगे बढ़ना’ कविता की किस पंक्ति से जुड़ा है?",
-    options: ["झुकी डालियों से", "जलधारा से", "सूरज की किरणों से", "दीपक से"],
-    correctAnswer: "जलधारा से"
+    question: "cous_n",
+    options: ["a", "e", "i", "o"],
+    correctAnswer: "i"
   },
   {
     id: 12,
-    question: "कविता में गीत गाने की प्रेरणा हमें किससे मिलती है?",
-    options: ["सूरज", "हवा", "भौंरा", "चाँद"],
-    correctAnswer: "भौंरा"
+    question: "bo_ght",
+    options: ["u", "a", "o", "e"],
+    correctAnswer: "u"
   },
   {
     id: 13,
-    question: "कविता में अंधकार दूर करने वाला कौन है?",
-    options: ["पानी", "आग", "सूरज", "दीपक"],
-    correctAnswer: "दीपक"
+    question: "ho_iday",
+    options: ["l", "m", "n", "r"],
+    correctAnswer: "l"
   },
   {
     id: 14,
-    question: "झुकी हुई डालियाँ किस गुण का प्रतीक हैं?",
-    options: ["प्रसन्नता", "बुद्धि", "विनम्रता", "उदारता"],
-    correctAnswer: "विनम्रता"
+    question: "sto_es",
+    options: ["r", "n", "p", "k"],
+    correctAnswer: "n"
   },
   {
     id: 15,
-    question: "सदैव जगना और जगाना हमें कौन सिखाता है?",
-    options: ["तारे", "पहाड़", "सूरज", "नदी"],
-    correctAnswer: "सूरज"
+    question: "ru_ning",
+    options: ["n", "m", "l", "t"],
+    correctAnswer: "n"
   },
   {
     id: 16,
-    question: "पृथ्वी किस गुण को दर्शाती है?",
-    options: ["दयालुता", "कठोरता", "सेवा भावना", "प्रेम"],
-    correctAnswer: "सेवा भावना"
+    question: "pla_ing",
+    options: ["y", "e", "a", "o"],
+    correctAnswer: "y"
   },
   {
     id: 17,
-    question: "कविता में कोमल भाव किससे जुड़े हैं?",
-    options: ["साहस", "करुणा", "प्रसन्नता", "कोमलता"],
-    correctAnswer: "कोमलता"
+    question: "ma_e",
+    options: ["d", "k", "p", "t"],
+    correctAnswer: "d"
   },
   {
     id: 18,
-    question: "कविता का मुख्य संदेश क्या है?",
-    options: ["शक्ति प्राप्त करना", "प्रकृति से अच्छे गुण सीखना", "अकेले रहना", "धनी बनना"],
-    correctAnswer: "प्रकृति से अच्छे गुण सीखना"
+    question: "g_mes",
+    options: ["o", "a", "e", "i"],
+    correctAnswer: "a"
   },
   {
     id: 19,
-    question: "एकता का पाठ कविता में कौन सिखाते हैं?",
-    options: ["नदी और पहाड़", "सूरज और चाँद", "लता और पेड़", "हवा और आकाश"],
-    correctAnswer: "लता और पेड़"
+    question: "rel_tive",
+    options: ["a", "e", "i", "o"],
+    correctAnswer: "a"
   },
   {
     id: 20,
-    question: "‘जीवन-पथ में बढ़ना’ किसका प्रतीक है?",
-    options: ["जगना और जगाना", "सेवा करना", "आगे बढ़ना", "अंधकार दूर करना"],
-    correctAnswer: "आगे बढ़ना"
+    question: "vi_it",
+    options: ["s", "z", "x", "c"],
+    correctAnswer: "s"
   },
   {
     id: 21,
-    question: "सेवा भावना किससे जुड़ी हुई है?",
-    options: ["हवा", "पृथ्वी", "आग", "नदी"],
-    correctAnswer: "पृथ्वी"
+    question: "hou_e",
+    options: ["s", "c", "z", "k"],
+    correctAnswer: "s"
   },
   {
     id: 22,
-    question: "कविता में हवा किस भावना को दर्शाती है?",
-    options: ["क्रोध", "चंचलता", "कोमलता", "ऊर्जा"],
-    correctAnswer: "कोमलता"
+    question: "co_king",
+    options: ["o", "a", "u", "i"],
+    correctAnswer: "o"
   },
   {
     id: 23,
-    question: "‘आनंदमयी कविता’ के कवि कौन हैं?",
-    options: ["प्रेमचंद", "महादेवी वर्मा", "श्रीनाथ सिंह", "कबीर"],
-    correctAnswer: "श्रीनाथ सिंह"
+    question: "cl_aning",
+    options: ["e", "i", "o", "u"],
+    correctAnswer: "e"
   },
   {
     id: 24,
-    question: "रंग-बिरंगे फूल देखकर मन में कौन-सा भाव आता है?",
-    options: ["दुख", "डर", "प्रसन्नता", "आलस्य"],
-    correctAnswer: "प्रसन्नता"
+    question: "ma_ket",
+    options: ["r", "l", "n", "d"],
+    correctAnswer: "r"
   },
   {
     id: 25,
-    question: "अंधकार में भी उजाला फैलाने की प्रेरणा किससे मिलती है?",
-    options: ["जुगनू", "सूरज", "दीपक", "चाँद"],
-    correctAnswer: "दीपक"
+    question: "se_ing",
+    options: ["w", "e", "a", "i"],
+    correctAnswer: "w"
   },
   {
     id: 26,
-    question: "धैर्य और स्थिरता हमें किससे मिलती है?",
-    options: ["नदी", "पेड़", "पहाड़", "तारा"],
-    correctAnswer: "पेड़"
+    question: "me_ding",
+    options: ["n", "l", "k", "t"],
+    correctAnswer: "n"
   },
   {
     id: 27,
-    question: "कविता का मुख्य विषय क्या है?",
-    options: ["ग्रहों का विज्ञान", "प्राकृतिक तत्वों से सीख", "भाषा के नियम", "गणितीय तरकीबें"],
-    correctAnswer: "प्राकृतिक तत्वों से सीख"
+    question: "but_ons",
+    options: ["t", "p", "l", "k"],
+    correctAnswer: "t"
   },
   {
     id: 28,
-    question: "कविता हमें किसके जैसा बनने की प्रेरणा देती है?",
-    options: ["जानवरों", "मशीनों", "प्रकृति", "वाहनों"],
-    correctAnswer: "प्रकृति"
+    question: "da_aji",
+    options: ["d", "n", "b", "g"],
+    correctAnswer: "d"
   },
   {
     id: 29,
-    question: "कविता का स्वर (tone) क्या है?",
-    options: ["क्रोधित", "प्रेरणादायक", "हास्य", "दुखद"],
-    correctAnswer: "प्रेरणादायक"
+    question: "lov_",
+    options: ["e", "a", "i", "u"],
+    correctAnswer: "e"
   },
   {
     id: 30,
-    question: "नदी कविता में किस भावना का प्रतीक है?",
-    options: ["स्थिरता", "डर", "प्रगति", "रूटीन"],
-    correctAnswer: "प्रगति"
-  }
-];
+    question: "ca_e",
+    options: ["r", "t", "m", "n"],
+    correctAnswer: "r"
+  },
+  
+    { "id": 1, "question": "fa_ily", "options": ["m", "n", "r", "l"], "correctAnswer": "m" },
+    { "id": 2, "question": "frien_s", "options": ["t", "d", "b", "c"], "correctAnswer": "d" },
+    { "id": 3, "question": "ch_upan", "options": ["h", "o", "e", "a"], "correctAnswer": "h" },
+    { "id": 4, "question": "chu__an-chhupai", "options": ["pp", "kp", "tt", "ll"], "correctAnswer": "pp" },
+    { "id": 5, "question": "p_ak-a-boo", "options": ["i", "e", "a", "o"], "correctAnswer": "e" },
+    { "id": 6, "question": "fl_wering", "options": ["o", "u", "a", "e"], "correctAnswer": "o" },
+    { "id": 7, "question": "neig_bours", "options": ["e", "h", "i", "g"], "correctAnswer": "h" },
+    { "id": 8, "question": "rel_tives", "options": ["a", "o", "i", "e"], "correctAnswer": "a" },
+    { "id": 9, "question": "shar_", "options": ["e", "a", "o", "u"], "correctAnswer": "e" },
+    { "id": 10, "question": "ra_n", "options": ["e", "i", "o", "u"], "correctAnswer": "i" },
+    { "id": 11, "question": "pak_das", "options": ["k", "o", "e", "a"], "correctAnswer": "o" },
+    { "id": 12, "question": "ant_kshari", "options": ["a", "e", "i", "u"], "correctAnswer": "a" },
+    { "id": 13, "question": "sing_ng", "options": ["i", "e", "o", "a"], "correctAnswer": "i" },
+    { "id": 14, "question": "D_diji", "options": ["a", "e", "o", "i"], "correctAnswer": "a" },
+    { "id": 15, "question": "D_daji", "options": ["a", "e", "o", "u"], "correctAnswer": "a" },
+    { "id": 16, "question": "h_uses", "options": ["a", "o", "u", "e"], "correctAnswer": "o" },
+    { "id": 17, "question": "ga_den", "options": ["r", "l", "t", "d"], "correctAnswer": "r" },
+    { "id": 18, "question": "veget_bles", "options": ["i", "a", "e", "o"], "correctAnswer": "a" },
+    { "id": 19, "question": "clea_ing", "options": ["r", "n", "t", "v"], "correctAnswer": "n" },
+    { "id": 20, "question": "co_king", "options": ["o", "u", "a", "e"], "correctAnswer": "o" },
+    { "id": 21, "question": "br_in", "options": ["a", "e", "o", "u"], "correctAnswer": "a" },
+    { "id": 22, "question": "shopp_ng", "options": ["e", "i", "a", "u"], "correctAnswer": "i" },
+    { "id": 23, "question": "rango_i", "options": ["l", "e", "o", "a"], "correctAnswer": "l" },
+    { "id": 24, "question": "col_urs", "options": ["o", "e", "a", "u"], "correctAnswer": "o" },
+    { "id": 25, "question": "anim_ls", "options": ["a", "o", "e", "i"], "correctAnswer": "a" },
+    { "id": 26, "question": "sh_ru", "options": ["i", "e", "a", "u"], "correctAnswer": "i" },
+    { "id": 27, "question": "ch_pping", "options": ["o", "a", "e", "u"], "correctAnswer": "o" },
+    { "id": 28, "question": "lau_gh", "options": ["g", "k", "t", "d"], "correctAnswer": "g" },
+    { "id": 29, "question": "shel_er", "options": ["t", "d", "p", "k"], "correctAnswer": "t" },
+    { "id": 30, "question": "talk_ng", "options": ["i", "o", "a", "e"], "correctAnswer": "i" }
+  
+  
+]
+;
 
 function App() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -192,6 +226,9 @@ function App() {
   const [attempts, setAttempts] = useState(0);
   const [feedback, setFeedback] = useState('');
   const [quizCompleted, setQuizCompleted] = useState(false);
+  const [showAnswers, setShowAnswers] = useState(false);
+  const [userAnswers, setUserAnswers] = useState({});
+  const [questionAttempts, setQuestionAttempts] = useState({});
 
   const currentQuestion = mcqData[currentQuestionIndex];
   const isLastQuestion = currentQuestionIndex === mcqData.length - 1;
@@ -199,6 +236,26 @@ function App() {
   const handleOptionSelect = (option) => {
     setSelectedOption(option);
     setFeedback('');
+  };
+
+  const updateUserAnswer = (questionId, selectedOption, isCorrect) => {
+    setUserAnswers(prev => ({
+      ...prev,
+      [questionId]: {
+        selectedOption,
+        isCorrect,
+        question: mcqData.find(q => q.id === questionId)?.question || '',
+        options: mcqData.find(q => q.id === questionId)?.options || [],
+        correctAnswer: mcqData.find(q => q.id === questionId)?.correctAnswer || ''
+      }
+    }));
+  };
+
+  const updateQuestionAttempts = (questionId) => {
+    setQuestionAttempts(prev => ({
+      ...prev,
+      [questionId]: (prev[questionId] || 0) + 1
+    }));
   };
 
   const checkAnswer = () => {
@@ -209,25 +266,29 @@ function App() {
 
     setAttempts(prev => prev + 1);
 
-    if (selectedOption === currentQuestion.correctAnswer) {
-      // Correct answer
+    const isCorrect = selectedOption === currentQuestion.correctAnswer;
+    updateUserAnswer(currentQuestion.id, selectedOption, isCorrect);
+    updateQuestionAttempts(currentQuestion.id);
+
+    if (isCorrect) {
       setScore(prev => prev + 1);
-      setFeedback('Correct! Well done!');
+      setFeedback('सही उत्तर! बहुत अच्छे!');
+      setSelectedOption('');
+      setAttempts(0);
       
-      // Move to next question after a short delay
-      setTimeout(() => {
-        if (isLastQuestion) {
-          setQuizCompleted(true);
-        } else {
+      if (isLastQuestion) {
+        setQuizCompleted(true);
+      } else {
+        setTimeout(() => {
           setCurrentQuestionIndex(prev => prev + 1);
-          setSelectedOption('');
-          setAttempts(0);
-        }
-      }, 1000);
+          setFeedback('');
+        }, 1000);
+      }
     } else {
       // Incorrect answer
       if (attempts >= 1) {
         // Max attempts reached
+        setFeedback(`गलत उत्तर. सही उत्तर है: ${currentQuestion.correctAnswer}`);
         setFeedback(`Incorrect. The correct answer is: ${currentQuestion.correctAnswer}`);
         
         // Move to next question after a short delay
@@ -248,24 +309,77 @@ function App() {
     }
   };
 
-  const resetQuiz = () => {
+  const restartQuiz = () => {
     setCurrentQuestionIndex(0);
     setSelectedOption('');
     setScore(0);
     setAttempts(0);
     setFeedback('');
     setQuizCompleted(false);
+    setShowAnswers(false);
+    setUserAnswers({});
+    setQuestionAttempts({});
   };
+
+  const toggleShowAnswers = () => {
+    setShowAnswers(!showAnswers);
+  };
+
+  const renderAnswerSummary = () => (
+    <div className="answer-summary">
+      <h3>विस्तृत उत्तर समीक्षा</h3>
+      {mcqData.map((q) => {
+        const userAnswer = userAnswers[q.id];
+        const attempts = questionAttempts[q.id] || 0;
+        const isCorrect = userAnswer?.isCorrect;
+        
+        return (
+          <div key={q.id} className={`answer-item ${isCorrect ? 'correct' : 'incorrect'}`}>
+            <p className="question-text"><strong>प्रश्न {q.id}:</strong> {q.question}</p>
+            <div className="options-container">
+              <p><strong>विकल्प:</strong></p>
+              <ul className="options-list">
+                {q.options.map((option, idx) => (
+                  <li 
+                    key={idx} 
+                    className={`option 
+                      ${option === q.correctAnswer ? 'correct-option' : ''}
+                      ${userAnswer?.selectedOption === option ? 'user-selected' : ''}
+                    `}
+                  >
+                    {option}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="answer-details">
+              <p><strong>आपका उत्तर:</strong> <span className={isCorrect ? 'correct-text' : 'incorrect-text'}>
+                {userAnswer?.selectedOption || 'कोई उत्तर नहीं दिया'}
+              </span></p>
+              <p><strong>प्रयास:</strong> {attempts}</p>
+              {!isCorrect && <p><strong>सही उत्तर:</strong> <span className="correct-text">{q.correctAnswer}</span></p>}
+              <p className={`status ${isCorrect ? 'correct-text' : 'incorrect-text'}`}>
+                {isCorrect ? 'सही उत्तर!' : 'गलत उत्तर'}
+              </p>
+            </div>
+          </div>
+        );
+      })}
+      <button onClick={toggleShowAnswers} className="btn">उत्तर छिपाएं</button>
+    </div>
+  );
 
   if (quizCompleted) {
     return (
-      <div className="app">
-        <div className="quiz-container">
-          <h1>Quiz Completed!</h1>
-          <h2>Your Score: {score} out of {mcqData.length}</h2>
-          <p>Percentage: {Math.round((score / mcqData.length) * 100)}%</p>
-          <button onClick={resetQuiz} className="retry-btn">Restart Quiz</button>
-        </div>
+      <div className="quiz-container">
+        <h2>क्विज़ पूरा हुआ!</h2>
+        <p>आपका स्कोर: {score} / {mcqData.length}</p>
+        <p>प्रतिशत: {Math.round((score / mcqData.length) * 100)}%</p>
+        {!showAnswers && (
+          <button onClick={toggleShowAnswers} className="btn">सही उत्तर देखें</button>
+        )}
+        {showAnswers && renderAnswerSummary()}
+        <button onClick={restartQuiz} className="btn">फिर से शुरू करें</button>
       </div>
     );
   }
