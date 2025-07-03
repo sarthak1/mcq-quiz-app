@@ -3,221 +3,70 @@ import './App.css';
 
 // Sample MCQ data - replace with your actual questions
 const mcqData = [
-  {
-    id: 1,
-    question: "fa_ily",
-    options: ["n", "m", "l", "r"],
-    correctAnswer: "m"
-  },
-  {
-    id: 2,
-    question: "fr_end",
-    options: ["a", "i", "o", "u"],
-    correctAnswer: "i"
-  },
-  {
-    id: 3,
-    question: "ne_ghbour",
-    options: ["i", "a", "e", "o"],
-    correctAnswer: "i"
-  },
-  {
-    id: 4,
-    question: "rela_ion",
-    options: ["t", "s", "c", "d"],
-    correctAnswer: "t"
-  },
-  {
-    id: 5,
-    question: "moth_r",
-    options: ["e", "o", "u", "a"],
-    correctAnswer: "e"
-  },
-  {
-    id: 6,
-    question: "f_ther",
-    options: ["a", "e", "i", "o"],
-    correctAnswer: "a"
-  },
-  {
-    id: 7,
-    question: "gra_dfather",
-    options: ["n", "m", "p", "t"],
-    correctAnswer: "n"
-  },
-  {
-    id: 8,
-    question: "gr_ndmother",
-    options: ["a", "u", "e", "o"],
-    correctAnswer: "a"
-  },
-  {
-    id: 9,
-    question: "unc_e",
-    options: ["l", "k", "m", "n"],
-    correctAnswer: "l"
-  },
-  {
-    id: 10,
-    question: "a_nt",
-    options: ["e", "i", "a", "u"],
-    correctAnswer: "u"
-  },
-  {
-    id: 11,
-    question: "cous_n",
-    options: ["a", "e", "i", "o"],
-    correctAnswer: "i"
-  },
-  {
-    id: 12,
-    question: "bo_ght",
-    options: ["u", "a", "o", "e"],
-    correctAnswer: "u"
-  },
-  {
-    id: 13,
-    question: "ho_iday",
-    options: ["l", "m", "n", "r"],
-    correctAnswer: "l"
-  },
-  {
-    id: 14,
-    question: "sto_es",
-    options: ["r", "n", "p", "k"],
-    correctAnswer: "n"
-  },
-  {
-    id: 15,
-    question: "ru_ning",
-    options: ["n", "m", "l", "t"],
-    correctAnswer: "n"
-  },
-  {
-    id: 16,
-    question: "pla_ing",
-    options: ["y", "e", "a", "o"],
-    correctAnswer: "y"
-  },
-  {
-    id: 17,
-    question: "ma_e",
-    options: ["d", "k", "p", "t"],
-    correctAnswer: "d"
-  },
-  {
-    id: 18,
-    question: "g_mes",
-    options: ["o", "a", "e", "i"],
-    correctAnswer: "a"
-  },
-  {
-    id: 19,
-    question: "rel_tive",
-    options: ["a", "e", "i", "o"],
-    correctAnswer: "a"
-  },
-  {
-    id: 20,
-    question: "vi_it",
-    options: ["s", "z", "x", "c"],
-    correctAnswer: "s"
-  },
-  {
-    id: 21,
-    question: "hou_e",
-    options: ["s", "c", "z", "k"],
-    correctAnswer: "s"
-  },
-  {
-    id: 22,
-    question: "co_king",
-    options: ["o", "a", "u", "i"],
-    correctAnswer: "o"
-  },
-  {
-    id: 23,
-    question: "cl_aning",
-    options: ["e", "i", "o", "u"],
-    correctAnswer: "e"
-  },
-  {
-    id: 24,
-    question: "ma_ket",
-    options: ["r", "l", "n", "d"],
-    correctAnswer: "r"
-  },
-  {
-    id: 25,
-    question: "se_ing",
-    options: ["w", "e", "a", "i"],
-    correctAnswer: "w"
-  },
-  {
-    id: 26,
-    question: "me_ding",
-    options: ["n", "l", "k", "t"],
-    correctAnswer: "n"
-  },
-  {
-    id: 27,
-    question: "but_ons",
-    options: ["t", "p", "l", "k"],
-    correctAnswer: "t"
-  },
-  {
-    id: 28,
-    question: "da_aji",
-    options: ["d", "n", "b", "g"],
-    correctAnswer: "d"
-  },
-  {
-    id: 29,
-    question: "lov_",
-    options: ["e", "a", "i", "u"],
-    correctAnswer: "e"
-  },
-  {
-    id: 30,
-    question: "ca_e",
-    options: ["r", "t", "m", "n"],
-    correctAnswer: "r"
-  },
+  { "id": 1, "question": "me_a", "options": ["e", "i", "l", "o"], "correctAnswer": "l" },
+  { "id": 2, "question": "e_citement", "options": ["k", "x", "s", "z"], "correctAnswer": "x" },
+  { "id": 3, "question": "bu_", "options": ["s", "z", "c", "x"], "correctAnswer": "s" },
+  { "id": 4, "question": "re_uest", "options": ["q", "k", "g", "c"], "correctAnswer": "q" },
+  { "id": 5, "question": "le_s", "options": ["g", "z", "d", "b"], "correctAnswer": "g" },
+  { "id": 6, "question": "neig_bours", "options": ["h", "g", "b", "j"], "correctAnswer": "h" },
+  { "id": 7, "question": "tr_in", "options": ["a", "e", "i", "o"], "correctAnswer": "a" },
+  { "id": 8, "question": "w_ter", "options": ["o", "a", "u", "e"], "correctAnswer": "a" },
+  { "id": 9, "question": "tick_ts", "options": ["i", "e", "a", "o"], "correctAnswer": "e" },
+  { "id": 10, "question": "safe_y", "options": ["f", "v", "p", "l"], "correctAnswer": "t" },
+  { "id": 11, "question": "wh_elchair", "options": ["i", "e", "o", "a"], "correctAnswer": "e" },
+  { "id": 12, "question": "p_lce", "options": ["a", "o", "u", "e"], "correctAnswer": "o" },
+  { "id": 13, "question": "ma_ic", "options": ["j", "g", "k", "z"], "correctAnswer": "g" },
+  { "id": 14, "question": "ha_ds", "options": ["n", "m", "r", "l"], "correctAnswer": "n" },
+  { "id": 15, "question": "del_cious", "options": ["e", "i", "a", "o"], "correctAnswer": "i" },
+  { "id": 16, "question": "du_tbin", "options": ["s", "z", "c", "b"], "correctAnswer": "s" },
+  { "id": 17, "question": "p_pets", "options": ["u", "o", "a", "i"], "correctAnswer": "u" },
+  { "id": 18, "question": "spinni_g", "options": ["n", "m", "l", "r"], "correctAnswer": "n" },
+  { "id": 19, "question": "ph_rkis", "options": ["i", "u", "e", "a"], "correctAnswer": "i" },
+  { "id": 20, "question": "gi_nt", "options": ["e", "o", "a", "u"], "correctAnswer": "a" },
+  { "id": 21, "question": "m_rry-go-round", "options": ["e", "a", "o", "i"], "correctAnswer": "e" },
+  { "id": 22, "question": "trink_ts", "options": ["e", "a", "o", "i"], "correctAnswer": "e" },
+  { "id": 23, "question": "ja_ebis", "options": ["l", "r", "n", "s"], "correctAnswer": "l" },
+  { "id": 24, "question": "kul_i", "options": ["f", "p", "m", "l"], "correctAnswer": "f" },
+  { "id": 25, "question": "cha_t", "options": ["a", "u", "i", "e"], "correctAnswer": "a" },
+  { "id": 26, "question": "cha_cha", "options": ["c", "s", "k", "z"], "correctAnswer": "c" },
+  { "id": 27, "question": "bo_th", "options": ["o", "u", "a", "e"], "correctAnswer": "o" },
+  { "id": 28, "question": "volu_teers", "options": ["n", "m", "r", "d"], "correctAnswer": "n" },
+  { "id": 29, "question": "f_stival", "options": ["e", "a", "i", "u"], "correctAnswer": "e" },
+  { "id": 30, "question": "ma_kind", "options": ["m", "e", "d", "n"], "correctAnswer": "n" },
   
-    { "id": 1, "question": "fa_ily", "options": ["m", "n", "r", "l"], "correctAnswer": "m" },
-    { "id": 2, "question": "frien_s", "options": ["t", "d", "b", "c"], "correctAnswer": "d" },
-    { "id": 3, "question": "ch_upan", "options": ["h", "o", "e", "a"], "correctAnswer": "h" },
-    { "id": 4, "question": "chu__an-chhupai", "options": ["pp", "kp", "tt", "ll"], "correctAnswer": "pp" },
-    { "id": 5, "question": "p_ak-a-boo", "options": ["i", "e", "a", "o"], "correctAnswer": "e" },
-    { "id": 6, "question": "fl_wering", "options": ["o", "u", "a", "e"], "correctAnswer": "o" },
-    { "id": 7, "question": "neig_bours", "options": ["e", "h", "i", "g"], "correctAnswer": "h" },
-    { "id": 8, "question": "rel_tives", "options": ["a", "o", "i", "e"], "correctAnswer": "a" },
-    { "id": 9, "question": "shar_", "options": ["e", "a", "o", "u"], "correctAnswer": "e" },
-    { "id": 10, "question": "ra_n", "options": ["e", "i", "o", "u"], "correctAnswer": "i" },
-    { "id": 11, "question": "pak_das", "options": ["k", "o", "e", "a"], "correctAnswer": "o" },
-    { "id": 12, "question": "ant_kshari", "options": ["a", "e", "i", "u"], "correctAnswer": "a" },
-    { "id": 13, "question": "sing_ng", "options": ["i", "e", "o", "a"], "correctAnswer": "i" },
-    { "id": 14, "question": "D_diji", "options": ["a", "e", "o", "i"], "correctAnswer": "a" },
-    { "id": 15, "question": "D_daji", "options": ["a", "e", "o", "u"], "correctAnswer": "a" },
-    { "id": 16, "question": "h_uses", "options": ["a", "o", "u", "e"], "correctAnswer": "o" },
-    { "id": 17, "question": "ga_den", "options": ["r", "l", "t", "d"], "correctAnswer": "r" },
-    { "id": 18, "question": "veget_bles", "options": ["i", "a", "e", "o"], "correctAnswer": "a" },
-    { "id": 19, "question": "clea_ing", "options": ["r", "n", "t", "v"], "correctAnswer": "n" },
-    { "id": 20, "question": "co_king", "options": ["o", "u", "a", "e"], "correctAnswer": "o" },
-    { "id": 21, "question": "br_in", "options": ["a", "e", "o", "u"], "correctAnswer": "a" },
-    { "id": 22, "question": "shopp_ng", "options": ["e", "i", "a", "u"], "correctAnswer": "i" },
-    { "id": 23, "question": "rango_i", "options": ["l", "e", "o", "a"], "correctAnswer": "l" },
-    { "id": 24, "question": "col_urs", "options": ["o", "e", "a", "u"], "correctAnswer": "o" },
-    { "id": 25, "question": "anim_ls", "options": ["a", "o", "e", "i"], "correctAnswer": "a" },
-    { "id": 26, "question": "sh_ru", "options": ["i", "e", "a", "u"], "correctAnswer": "i" },
-    { "id": 27, "question": "ch_pping", "options": ["o", "a", "e", "u"], "correctAnswer": "o" },
-    { "id": 28, "question": "lau_gh", "options": ["g", "k", "t", "d"], "correctAnswer": "g" },
-    { "id": 29, "question": "shel_er", "options": ["t", "d", "p", "k"], "correctAnswer": "t" },
-    { "id": 30, "question": "talk_ng", "options": ["i", "o", "a", "e"], "correctAnswer": "i" }
+    { "id": 1, "question": "ja_a", "options": ["b", "a", "c", "v"], "correctAnswer": "v" },
+    { "id": 2, "question": "me_a", "options": ["l", "n", "r", "d"], "correctAnswer": "l" },
+    { "id": 3, "question": "po_ice", "options": ["l", "r", "t", "s"], "correctAnswer": "l" },
+    { "id": 4, "question": "bo_th", "options": ["o", "u", "a", "i"], "correctAnswer": "o" },
+    { "id": 5, "question": "do_", "options": ["g", "t", "n", "d"], "correctAnswer": "g" },
+    { "id": 6, "question": "to_s", "options": ["y", "e", "a", "u"], "correctAnswer": "y" },
+    { "id": 7, "question": "ga_es", "options": ["m", "n", "r", "v"], "correctAnswer": "m" },
+    { "id": 8, "question": "rid_s", "options": ["e", "a", "o", "i"], "correctAnswer": "e" },
+    { "id": 9, "question": "mag_c", "options": ["i", "e", "a", "o"], "correctAnswer": "i" },
+    { "id": 10, "question": "sho_", "options": ["w", "p", "t", "n"], "correctAnswer": "w" },
+    { "id": 11, "question": "foo_", "options": ["d", "t", "g", "k"], "correctAnswer": "d" },
+    { "id": 12, "question": "cra_t", "options": ["f", "p", "s", "v"], "correctAnswer": "f" },
+    { "id": 13, "question": "baz__", "options": ["a", "e", "o", "aa"], "correctAnswer": "a" },
+    { "id": 14, "question": "la__u", "options": ["l", "r", "m", "n"], "correctAnswer": "l" },
+    { "id": 15, "question": "hal_a_", "options": ["w", "v", "r", "b"], "correctAnswer": "w" },
+    { "id": 16, "question": "mat_a", "options": ["k", "d", "g", "s"], "correctAnswer": "k" },
+    { "id": 17, "question": "ku__i", "options": ["l", "m", "r", "s"], "correctAnswer": "l" },
+    { "id": 18, "question": "f__e", "options": ["i", "r", "o", "a"], "correctAnswer": "i" },
+    { "id": 19, "question": "ambu_a_ce", "options": ["l", "r", "n", "p"], "correctAnswer": "l" },
+    { "id": 20, "question": "vo__nteer", "options": ["l", "u", "o", "i"], "correctAnswer": "l" },
+    { "id": 21, "question": "me_e_di", "options": ["h", "l", "n", "t"], "correctAnswer": "h" },
+    { "id": 22, "question": "pu__eteer", "options": ["p", "r", "n", "m"], "correctAnswer": "p" },
+    { "id": 23, "question": "ba__gle", "options": ["n", "d", "n", "g"], "correctAnswer": "n" },
+    { "id": 24, "question": "li__rary", "options": ["b", "d", "f", "g"], "correctAnswer": "b" },
+    { "id": 25, "question": "ba_k", "options": ["n", "m", "s", "d"], "correctAnswer": "n" },
+    { "id": 26, "question": "sc_oo_", "options": ["h, l", "k, l", "h, m", "r, t"], "correctAnswer": "h, l" },
+    { "id": 27, "question": "po_t", "options": ["s", "t", "n", "l"], "correctAnswer": "s" },
+    { "id": 28, "question": "g_ound", "options": ["r", "l", "m", "n"], "correctAnswer": "r" },
+    { "id": 29, "question": "par_de", "options": ["a", "o", "e", "u"], "correctAnswer": "a" },
+    { "id": 30, "question": "sa_ety", "options": ["f", "p", "v", "t"], "correctAnswer": "f" }
   
   
-]
-;
+];
 
 function App() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
